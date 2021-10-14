@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+    $("img").append(/"<img src="image/exterior.jpg/">");
+  });
+  
+
+  $("#btn2").click(function(){
+    $("img").after(/"<img src="image/interior.jpg/">");
+  });
+});
+</script>
+</head>
+<body>
+
+<center><h2>Mercedes Benz W210</h2></center>
+<hr>
+<p>Mercy W210 atau yang biasa disebut Mercy New Eyes adalah salah satu lineup Mercy yang diproduksi mulai dari tahun 1995 hingga tahun 2003. Terdapat beberapa pilihan mesin yang dipasarkan di Indonesia, yaitu E230, E240, dan E320. Berikut merupakan gambar-gambarnya</p>
+<img src="image/exterior.jpg/">
+<button id="btn1">Eksterior</button>
+<button id="btn2">Interior</button>
+</body>
+</html>
